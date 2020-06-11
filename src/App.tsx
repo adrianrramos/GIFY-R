@@ -1,26 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// TODO: Find API to plug into to load GIF's
+// TODO: Structure Basic HTML
+// TODO: Plug into API and render GIFs
+// TODO: Structure spacing + sizing for HTML / Display elements
+// TODO: Implement lazy loading
+// TODO: Add final touches such as styling etc.
+// TODO: Update GitHub Repo with fancy README.MD
+
+const App = () => {
+  return <div>Hi</div>;
+};
 
 export default App;
